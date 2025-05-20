@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Satisfy&display=swap');
+
+:root {
+    --navy-blue: #001f3f;
+    --highlight-orange: #ffa500;
+    --soft-blue-bg: #e7f0f7;
+    --light-gray-bg: #f8f9fa;
+    --dark-text: #2c3e50;
+    --medium-text: #334e68;
+    --white: #ffffff;
+
+    --font-heading: 'Poppins', 'Arial Black', sans-serif;
+    --font-body: 'Poppins', Arial, sans-serif;
+    --font-decorative: 'Satisfy', cursive;
+
+    --border-radius-md: 8px;
+    --border-radius-lg: 12px;
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 6px 12px rgba(0, 0, 0, 0.12);
+}
+
+html,
+body {
+    font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+}
+
+body {
+    margin: 0;
+    color: var(--dark-text);
+    background-color: var(--white);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: var(--highlight-orange);
+    color: var(--white) !important;
+    font-family: var(--font-heading);
+    text-decoration: none !important;
+    border-radius: var(--border-radius-md);
+    font-size: 1.05em;
+    font-weight: 600; /* Poppins semibold */
+    transition: background-color 0.2s ease-out, transform 0.1s ease-out, box-shadow 0.2s ease-out;
+    border: none;
+    cursor: pointer;
+    box-shadow: var(--shadow-sm);
+}
+
+.button:hover {
+    background-color: #e69500;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.button-primary {
+    background-color: var(--navy-blue);
+}
+.button-primary:hover {
+    background-color: #00162d;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg) !important;
+}
+
+/* Header Nav Link Styling */
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.05em;
+    font-weight: 500; /* Poppins medium */
+    padding: 5px 0;
+    position: relative;
+    transition: color 0.2s ease;
+}
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--highlight-orange);
+    transition: width 0.3s ease-out;
+}
+.nav-link:hover,
+.nav-link.active {
+    /* You'd need logic to set 'active' class */
+    color: var(--highlight-orange) !important;
+}
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
+}
+
+/* Section Padding (reusable) */
+.section-padding {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+@media (min-width: 768px) {
+    .section-padding {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+}
+
+/* For Services Page - from earlier, if needed */
+.detailed-services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+}
+.service-detail-item {
+    background-color: var(--white);
+    border-radius: var(--border-radius-lg);
+    padding: 30px;
+    box-shadow: var(--shadow-md);
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+.service-features-list li::before {
+    content: '→';
+    color: var(--highlight-orange);
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2em;
+    line-height: inherit;
+    font-weight: bold;
+}
+.service-features-list li {
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 8px;
+    font-size: 0.95em;
+    color: #555;
+}
+
+.svg-placeholder-text {
+    font-family: var(--font-body);
+    font-weight: 600;
+}
+
