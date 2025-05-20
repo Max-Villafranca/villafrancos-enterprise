@@ -6,7 +6,6 @@
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
         "node_modules": true,
-        ".gitignore": true,
         "bun.lock": true,
         "eslint.config.mjs": true,
         "README.md": true,
@@ -14,7 +13,6 @@
     },
     "hide-files.files": [
         "node_modules",
-        ".gitignore",
         "bun.lock",
         "eslint.config.mjs",
         "README.md",
