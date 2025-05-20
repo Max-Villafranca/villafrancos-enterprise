@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; /* Clean body text */
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+main {
+    padding: 20px;
+    min-height: calc(100vh - 180px); /* Adjust based on actual header/footer height */
+    flex-grow: 1; /* For sticky footer with flex layout in RootLayout */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Comic Sans MS', 'Brush Script MT', cursive; /* Playful headings */
+    color: #001f3f; /* Navy Blue */
+}
+
+a {
+    color: #ffa500; /* Orange for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    background-color: #ffa500; /* Orange */
+    color: white !important; /* Ensure text is white */
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    text-decoration: none; /* For Link components styled as buttons */
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif; /* Match body font for button text */
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #e69500; /* Darker orange */
+    text-decoration: none;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0; /* Adjust if needed */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+    .container {
+        padding: 15px;
+        margin: 10px auto;
+    }
+    h1 {
+        font-size: 2.2em;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+}
