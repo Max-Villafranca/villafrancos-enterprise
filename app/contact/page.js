@@ -36,8 +36,8 @@ export default function ContactPage() {
                     lineHeight: 1.7,
                 }}
             >
-                We're ready to help with your next painting or lead abatement project! Reach out to Billy the Painter
-                for a friendly consultation and a free, no-obligation quote.
+                We&apos;re ready to help with your next painting or lead abatement project! Reach out to Billy the
+                Painter for a friendly consultation and a free, no-obligation quote.
             </p>
 
             <div
@@ -164,7 +164,7 @@ export default function ContactPage() {
                 </h3>
                 <p style={{ fontSize: '1.1em', color: 'var(--medium-text)', margin: 0 }}>{serviceAreaInfo}</p>
                 <p style={{ marginTop: '15px', fontSize: '0.9em', color: 'var(--dark-text)' }}>
-                    Billy the Painter operates under <strong>Villafranco's Enterprise LLC</strong>.
+                    Billy the Painter operates under <strong>villafranco&apos;s Enterprise LLC</strong>.
                 </p>
             </div>
 

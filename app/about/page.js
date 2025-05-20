@@ -60,12 +60,12 @@ export default function AboutPage() {
                             fontFamily: 'var(--font-body)',
                         }}
                     >
-                        Hi, I'm Billy! For me, painting is more than just applying color to walls – it's about bringing
-                        visions to life, creating joyful spaces, and building lasting relationships with my clients.
-                        With years of dedicated experience, I founded <strong>Billy the Painter</strong>, operating
-                        under
-                        <strong>Villafranco's Enterprise LLC</strong>, to offer top-quality painting services infused
-                        with a personal, approachable touch.
+                        Hi, I&apos;m Billy! For me, painting is more than just applying color to walls – it&apos;s about
+                        bringing visions to life, creating joyful spaces, and building lasting relationships with my
+                        clients. With years of dedicated experience, I founded <strong>Billy the Painter</strong>,
+                        operating under
+                        <strong>villafranco&apos;s Enterprise LLC</strong>, to offer top-quality painting services
+                        infused with a personal, approachable touch.
                     </p>
                 </div>
             </div>
@@ -99,7 +99,8 @@ export default function AboutPage() {
                 >
                     We believe in doing things right the first time. This means meticulous preparation, using premium
                     materials, and an unwavering attention to detail from start to finish. Our goal is simple: to exceed
-                    your expectations and leave you with a beautifully transformed space you'll love for years to come.
+                    your expectations and leave you with a beautifully transformed space you&apos;ll love for years to
+                    come.
                 </p>
                 <ul
                     className='values-list'
@@ -200,11 +201,11 @@ export default function AboutPage() {
                             color: 'var(--highlight-orange)',
                         }}
                     >
-                        Villafranco's Enterprise LLC
+                        villafranco&apos;s Enterprise LLC
                     </h3>
                     <p style={{ margin: 0, fontSize: '1.05em', lineHeight: 1.6 }}>
-                        Billy the Painter proudly operates as a dedicated service under Villafranco's Enterprise LLC.
-                        This ensures full compliance, proper insurance, and a robust professional backing for all
+                        Billy the Painter proudly operates as a dedicated service under villafranco&apos;s Enterprise
+                        LLC. This ensures full compliance, proper insurance, and a robust professional backing for all
                         projects we undertake. You receive the warm, friendly service of Billy the Painter combined with
                         the security and established professionalism of an LLC.
                     </p>

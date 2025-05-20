@@ -69,8 +69,8 @@ export default function HomePage() {
                         fontFamily: 'var(--font-body, Arial, sans-serif)',
                     }}
                 >
-                    Your trusted partner under <strong>Villafranco's Enterprise LLC</strong> for professional painting
-                    and certified lead abatement services. We bring color and safety to your spaces!
+                    Your trusted partner under <strong>villafranco&apos;s Enterprise LLC</strong> for professional
+                    painting and certified lead abatement services. We bring color and safety to your spaces!
                 </p>
                 <Link
                     href='/contact'
@@ -211,7 +211,7 @@ export default function HomePage() {
                         fontFamily: 'var(--font-body, Arial, sans-serif)',
                     }}
                 >
-                    Contact Billy the Painter for a friendly consultation and a no-obligation quote. Let's make your
+                    Contact Billy the Painter for a friendly consultation and a no-obligation quote. Le&apos;s make your
                     vision a reality!
                 </p>
                 <Link
@@ -225,4 +225,3 @@ export default function HomePage() {
         </div>
     )
 }
-

@@ -46,7 +46,8 @@ export default function Footer() {
                     </p>
                 </div>
                 <p style={{ fontSize: '0.9em', color: '#aaa' }}>
-                    © {new Date().getFullYear()} Billy the Painter - Villafranco's Enterprise LLC. All rights reserved.
+                    © {new Date().getFullYear()} Billy the Painter - villafranco&apos;s Enterprise LLC. All rights
+                    reserved.
                 </p>
                 <p style={{ fontSize: '0.85em', color: '#aaa' }}>
                     Professional Painting & EPA Certified Lead Abatement Services.

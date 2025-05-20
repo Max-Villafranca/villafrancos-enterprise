@@ -54,7 +54,7 @@ const services = [
         id: 4,
         title: 'Residential Painting',
         description:
-            "Your home is your sanctuary. We provide personalized painting services for homeowners, whether it's a new build, a renovation, or a simple refresh. We treat your home with respect, ensuring a clean work environment and stunning results.",
+            'Your home is your sanctuary. We provide personalized painting services for homeowners, whether it&apos;s a new build, a renovation, or a simple refresh. We treat your home with respect, ensuring a clean work environment and stunning results.',
         iconText: 'Residential',
         details: [
             'Apartments, condos, and single-family homes',
